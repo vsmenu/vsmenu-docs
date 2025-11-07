@@ -1,0 +1,97 @@
+name: 📚 Documentação
+description: Reportar problema ou sugerir melhoria na documentação
+title: "[DOCS] "
+labels: ["documentation", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a melhorar nossa documentação!
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo de Issue de Documentação
+      description: Qual tipo de problema/melhoria?
+      options:
+        - Documentação faltando
+        - Documentação incorreta/desatualizada
+        - Documentação confusa
+        - Erro de digitação/gramática
+        - Melhorar exemplos
+        - Adicionar diagrama
+        - Tradução
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Localização
+      description: Onde na documentação está o problema?
+      placeholder: |
+        URL ou caminho do arquivo:
+        Seção específica:
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Descrição do Problema
+      description: O que está errado ou faltando?
+      placeholder: Descreva o problema encontrado na documentação
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Sugestão de Melhoria
+      description: Como você acha que deveria ser?
+      placeholder: |
+        Descreva como a documentação deveria ser melhorada.
+        Se possível, forneça o texto corrigido.
+
+  - type: dropdown
+    id: document
+    attributes:
+      label: Documento Afetado
+      description: Qual documento precisa ser atualizado?
+      options:
+        - DOC-001 Especificação Arquitetural
+        - DOC-002 Modelagem de Dados
+        - DOC-003 Contratos de API
+        - DOC-004 Regras de Negócio
+        - DOC-005 Fluxos de Processos
+        - DOC-006 Design System
+        - DOC-007 Infraestrutura
+        - DOC-008 Versionamento
+        - DOC-009 Testes e Qualidade
+        - DOC-010 Integração IA-Devs
+        - README
+        - API Documentation
+        - Code Comments
+        - Outro
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto Adicional
+      description: Qualquer informação adicional relevante
+      placeholder: Screenshots, links, referências...
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Verifiquei se já não existe uma issue similar
+          required: true
+        - label: Li a documentação existente sobre o assunto
+          required: false
+        - label: Posso contribuir com a correção/melhoria
+          required: false
