@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussões
+    url: https://github.com/vsmenu/vsmenu-docs/discussions
+    about: Para perguntas gerais e discussões, use nossa área de Discussões
+  - name: 📖 Documentação
+    url: https://github.com/vsmenu/vsmenu-docs
+    about: Consulte nossa documentação técnica completa
+  - name: 🆘 Suporte
+    url: https://vsmenu.com.br/suporte
+    about: Para suporte comercial, entre em contato através do site
