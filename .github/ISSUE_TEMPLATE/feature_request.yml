@@ -1,0 +1,118 @@
+name: ✨ Feature Request
+description: Sugerir uma nova funcionalidade ou melhoria
+title: "[FEATURE] "
+labels: ["enhancement", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir uma melhoria! Por favor, descreva sua ideia detalhadamente.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou Necessidade
+      description: Qual problema esta feature resolve?
+      placeholder: |
+        Descreva o problema ou necessidade que motivou esta sugestão.
+        Ex: "É frustrante quando..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução Proposta
+      description: Como você imagina que esta feature deveria funcionar?
+      placeholder: |
+        Descreva detalhadamente a solução que você propõe.
+        Ex: "Seria ótimo se pudéssemos..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas Consideradas
+      description: Você considerou outras soluções ou workarounds?
+      placeholder: Descreva outras alternativas que você considerou
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade Sugerida
+      description: Qual a importância desta feature para você?
+      options:
+        - Crítica - Bloqueador para uso do sistema
+        - Alta - Muito importante para o negócio
+        - Média - Melhoria significativa
+        - Baixa - Nice to have
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Módulo/Componente
+      description: Qual módulo do sistema será afetado?
+      options:
+        - API Backend
+        - Delivery Web
+        - Sales Panel
+        - Desktop App
+        - App Garçom
+        - App Entregador
+        - Cardápio Digital
+        - Landing Page
+        - Design System
+        - Infraestrutura
+        - Documentação
+        - Múltiplos módulos
+
+  - type: textarea
+    id: user-stories
+    attributes:
+      label: User Stories
+      description: Descreva casos de uso específicos
+      placeholder: |
+        Como [tipo de usuário]
+        Eu quero [ação]
+        Para que [benefício]
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceite
+      description: Como saberemos que esta feature está completa?
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups ou Wireframes
+      description: Se tiver, adicione designs ou esboços da interface
+      placeholder: Cole ou arraste imagens aqui
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto Adicional
+      description: Qualquer outra informação relevante
+      placeholder: Informações adicionais, links, referências...
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Verifiquei se esta feature já não foi solicitada
+          required: true
+        - label: Esta feature está alinhada com os objetivos do produto
+          required: false
+        - label: Estou disponível para discutir detalhes da implementação
+          required: false
