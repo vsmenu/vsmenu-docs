@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# VitePress
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*.swn
+*~
+
+# Env
+.env
+.env.local
+.env.*.local
+
