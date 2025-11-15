@@ -153,7 +153,7 @@ Adoramos contribuições! Existem várias formas de contribuir com a documentaç
 - Use o [template de documento](./DOCUMENT-TEMPLATE.md)
 - Commits seguem [Conventional Commits](https://www.conventionalcommits.org/)
 
-📖 **Leia o guia completo:** [CONTRIBUTING.md](./docs/contributing/index.md)
+📖 **Leia o guia completo:** [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 🛠️ Stack Tecnológica
 
