@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C42;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="vsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E67A2E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- VS logo estilizado -->
+  <g transform="translate(250, 180)">
+    <!-- Shadow -->
+    <text x="2" y="2" font-family="Impact, Arial Black, sans-serif" font-size="200" font-weight="bold" fill="#3D3027" text-anchor="middle" opacity="0.3">VS</text>
+    
+    <!-- Main text -->
+    <text x="0" y="0" font-family="Impact, Arial Black, sans-serif" font-size="200" font-weight="bold" fill="url(#vsGradient)" stroke="#3D3027" stroke-width="8" text-anchor="middle">VS</text>
+    
+    <!-- Inner white highlight -->
+    <text x="-3" y="-3" font-family="Impact, Arial Black, sans-serif" font-size="200" font-weight="bold" fill="none" stroke="white" stroke-width="3" text-anchor="middle" opacity="0.6">VS</text>
+  </g>
+  
+  <!-- MENU text -->
+  <g transform="translate(250, 370)">
+    <text x="0" y="0" font-family="Impact, Arial Black, sans-serif" font-size="90" font-weight="bold" fill="white" stroke="#3D3027" stroke-width="6" text-anchor="middle">MENU</text>
+  </g>
+  
+  <!-- DELIVERY SYSTEM subtitle -->
+  <g transform="translate(250, 435)">
+    <line x1="-120" y1="0" x2="-80" y2="0" stroke="#3D3027" stroke-width="4"/>
+    <text x="0" y="5" font-family="Impact, Arial, sans-serif" font-size="28" font-weight="bold" fill="#3D3027" text-anchor="middle">DELIVERY SYSTEM</text>
+    <line x1="80" y1="0" x2="120" y2="0" stroke="#3D3027" stroke-width="4"/>
+  </g>
+</svg>
+

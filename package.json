@@ -1,0 +1,27 @@
+{
+  "name": "vsmenu-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Documentação Central - Toda a documentação técnica e arquitetural do projeto VSmenu 2.0",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsmenu/vsmenu-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsmenu/vsmenu-docs/issues"
+  },
+  "homepage": "https://github.com/vsmenu/vsmenu-docs#readme",
+  "devDependencies": {
+    "mermaid": "^11.12.1",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.24"
+  }
+}

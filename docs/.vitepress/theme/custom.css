@@ -1,0 +1,39 @@
+/**
+ * Custom styles for VSmenu Documentation
+ * Baseado no VSmenu Design System
+ */
+
+:root {
+  /* Brand Colors - baseado na logo VSmenu */
+  --vp-c-brand-1: #FF8C42;
+  --vp-c-brand-2: #FFA659;
+  --vp-c-brand-3: #E67A2E;
+  --vp-c-brand-soft: rgba(255, 140, 66, 0.14);
+
+  /* Accent colors da logo */
+  --vsmenu-yellow: #FFD600;
+  --vsmenu-orange: #FF8C42;
+  --vsmenu-dark: #3D3027;
+}
+
+/* Dark mode adjustments */
+.dark {
+  --vp-c-brand-1: #FFA659;
+  --vp-c-brand-2: #FF8C42;
+  --vp-c-brand-3: #FFB870;
+}
+
+/* Custom hero gradient - cores da logo VSmenu */
+.VPHero .name {
+  background: linear-gradient(135deg, #FFD600 0%, #FF8C42 50%, #E67A2E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Logo styling */
+.VPImage.image-src {
+  max-width: 100%;
+  height: auto;
+}
+
