@@ -74,4 +74,3 @@ Quer adicionar ou melhorar diagramas? Veja o [Guia de Contribuição](/contribut
 ---
 
 **Voltar para:** [Arquitetura](/architecture/)
-

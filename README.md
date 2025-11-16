@@ -3,12 +3,15 @@
 > Central de documentação técnica do projeto VSmenu 2.0 - Sistema completo de gestão para restaurantes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/vsmenu/vsmenu-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/vsmenu/vsmenu-docs/actions/workflows/ci.yml)
+[![Deploy](https://github.com/vsmenu/vsmenu-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/vsmenu/vsmenu-docs/actions/workflows/deploy.yml)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![VitePress](https://img.shields.io/badge/Powered%20by-VitePress-646cff.svg)](https://vitepress.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933.svg)](https://nodejs.org/)
 
 ## 🌐 Acesse a Documentação
 
-**📖 Documentação Online:** Em breve será disponibilizada após configuração do deploy
+**📖 Documentação Online:** [https://vsmenu.github.io/vsmenu-docs/](https://vsmenu.github.io/vsmenu-docs/)
 
 ## 📋 Sobre
 
@@ -62,9 +65,25 @@ npm run docs:preview
 
 Os arquivos otimizados serão gerados em `docs/.vitepress/dist/`.
 
+### Linting e Validação
+
+```bash
+# Verificar formatação Markdown
+npm run lint:md
+
+# Corrigir automaticamente erros de Markdown
+npm run lint:md:fix
+
+# Verificar links quebrados
+npm run check-links
+
+# Rodar todos os testes (build)
+npm test
+```
+
 ## 📁 Estrutura do Projeto
 
-```
+```text
 vsmenu-docs/
 ├── docs/                           # Conteúdo da documentação
 │   ├── .vitepress/                 # Configuração VitePress
@@ -181,21 +200,26 @@ Adoramos contribuições! Existem várias formas de contribuir com a documentaç
 O VSmenu 2.0 é composto por múltiplas aplicações:
 
 ### Backend
+
 - 🔧 [vsmenu-api](https://github.com/vsmenu/vsmenu-api) - API Backend (Laravel 11)
 - ☁️ [vsmenu-infrastructure](https://github.com/vsmenu/vsmenu-infrastructure) - Infraestrutura como Código (Terraform)
 
 ### Frontend
+
 - 🌐 [vsmenu-delivery-web](https://github.com/vsmenu/vsmenu-delivery-web) - App Web Delivery (Vue 3)
 - 💻 [vsmenu-desktop](https://github.com/vsmenu/vsmenu-desktop) - App Desktop Interno (Electron + Vue 3)
 
 ### Mobile
+
 - 📱 [vsmenu-mobile-waiter](https://github.com/vsmenu/vsmenu-mobile-waiter) - App Mobile Garçom (React Native)
 - 🚚 [vsmenu-mobile-deliverer](https://github.com/vsmenu/vsmenu-mobile-deliverer) - App Mobile Entregador (React Native)
 
 ### Design
+
 - 🎨 [vsmenu-design-system](https://github.com/vsmenu/vsmenu-design-system) - Design System e Componentes
 
 ### Documentação
+
 - 📚 [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) - Documentos de planejamento e arquitetura
 
 ## 📚 Documentação de Referência
@@ -233,11 +257,11 @@ O repositório [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) 
 
 ### 🚧 Em Desenvolvimento
 
-- [ ] Setup CI/CD (GitHub Actions)
-- [ ] Deploy automático (GitHub Pages)
-- [ ] Tema e branding customizado
-- [ ] README e Contributing guidelines
-- [ ] Code of Conduct
+- [x] Setup CI/CD (GitHub Actions)
+- [x] Deploy automático (GitHub Pages)
+- [x] Tema e branding customizado
+- [x] README e Contributing guidelines
+- [x] Code of Conduct
 
 ### 📅 Planejado
 
@@ -253,6 +277,7 @@ O repositório [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) 
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 A licença MIT permite:
+
 - ✅ Uso comercial
 - ✅ Modificação
 - ✅ Distribuição
@@ -274,7 +299,7 @@ Obrigado a todos os [contribuidores](https://github.com/vsmenu/vsmenu-docs/graph
 
 - 🐛 **Reportar Bugs:** [GitHub Issues](https://github.com/vsmenu/vsmenu-docs/issues)
 - 💬 **Discussões:** [GitHub Discussions](https://github.com/vsmenu/vsmenu-docs/discussions)
-- 📧 **Email:** contato@vsmenu.io
+- 📧 **Email:** <contato@vsmenu.io>
 - 🌐 **Website:** [vsmenu.io](https://vsmenu.io) (em breve)
 
 ## 🔗 Links Úteis

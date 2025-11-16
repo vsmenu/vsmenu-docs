@@ -10,6 +10,7 @@ Parágrafo introdutório explicando brevemente o conteúdo desta página.
 ## 🎯 Visão Geral
 
 Forneça uma visão geral do tópico, explicando:
+
 - O que é
 - Para que serve
 - Quando usar
@@ -51,6 +52,7 @@ Use tabelas para dados estruturados:
 ### Listas
 
 **Lista não ordenada:**
+
 - Item 1
 - Item 2
   - Subitem 2.1
@@ -58,6 +60,7 @@ Use tabelas para dados estruturados:
 - Item 3
 
 **Lista ordenada:**
+
 1. Primeiro passo
 2. Segundo passo
 3. Terceiro passo
@@ -91,12 +94,14 @@ Adicione imagens quando necessário:
 ## 🔗 Links
 
 ### Links Internos
+
 Use links relativos para outras páginas da documentação:
 
 - [Link para outra seção](./outra-secao.md)
 - [Link para seção específica](#seção-principal-1)
 
 ### Links Externos
+
 Use links absolutos para recursos externos:
 
 - [Documentação do VitePress](https://vitepress.dev)
@@ -158,6 +163,7 @@ Lista de problemas comuns e suas soluções:
 **Sintoma:** Descrição do erro
 
 **Solução:**
+
 1. Passo 1 para resolver
 2. Passo 2 para resolver
 3. Passo 3 para resolver
@@ -181,4 +187,3 @@ Sugira o que o leitor deve fazer em seguida:
 ::: tip Contribua
 Encontrou algum erro ou quer melhorar esta documentação? [Contribua aqui](/contributing/)!
 :::
-

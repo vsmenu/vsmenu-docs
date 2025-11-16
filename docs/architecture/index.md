@@ -59,18 +59,21 @@ graph TB
 ## 🔑 Componentes Principais
 
 ### API Backend (Laravel)
+
 - Autenticação e autorização
 - Lógica de negócio
 - Gerenciamento de dados
 - Webhooks e integrações
 
 ### WebSocket Server
+
 - Notificações em tempo real
 - Status de pedidos
 - Chat interno
 - Eventos do sistema
 
 ### Aplicações Cliente
+
 - **Web**: Pedidos delivery e gestão
 - **Desktop**: Sistema interno offline-first
 - **Mobile Garçom**: Gerenciamento de mesas
@@ -83,6 +86,7 @@ A documentação completa da arquitetura está sendo construída. Contribuiçõe
 :::
 
 Explore mais sobre:
+
 - Decisões de arquitetura (ADRs)
 - Padrões de design
 - Fluxo de dados
@@ -91,4 +95,3 @@ Explore mais sobre:
 ---
 
 Próximo: [Documentação da API](/api/)
-

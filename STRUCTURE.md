@@ -115,16 +115,19 @@ vsmenu-docs/
 ## 📝 Convenções
 
 ### Arquivos
+
 - **index.md** - Sempre presente em cada seção, serve como overview
 - **kebab-case.md** - Nomes de arquivos em kebab-case
 - **Front Matter** - Todo arquivo `.md` deve ter front matter YAML
 
 ### Pastas
+
 - **kebab-case** - Nomes de pastas em kebab-case
 - **index.md obrigatório** - Cada pasta deve ter seu `index.md`
 - **.gitkeep** - Usado em pastas vazias para mantê-las no Git
 
 ### Assets
+
 - **images/** - Imagens (logos, screenshots, ícones)
 - **public/diagrams/** - Diagramas de arquitetura e fluxos
 - **Otimização** - Imagens devem ser otimizadas antes do commit
@@ -132,51 +135,61 @@ vsmenu-docs/
 ## 🎯 Seções Principais
 
 ### 1. Getting Started 🚀
+
 **Objetivo:** Ajudar novos desenvolvedores a começar rapidamente  
 **Conteúdo:** Instalação, pré-requisitos, quick start  
 **Público:** Iniciantes no projeto
 
 ### 2. Architecture 🏗️
+
 **Objetivo:** Explicar a arquitetura do sistema  
 **Conteúdo:** Visão geral, componentes, fluxo de dados, ADRs  
 **Público:** Arquitetos, desenvolvedores avançados
 
 ### 3. API 🔌
+
 **Objetivo:** Documentar a API REST e WebSocket  
 **Conteúdo:** Endpoints, autenticação, webhooks, eventos  
 **Público:** Desenvolvedores frontend/mobile, integrações
 
 ### 4. Guides 📚
+
 **Objetivo:** Guias específicos por aplicação  
 **Conteúdo:** Setup, desenvolvimento, deploy por repositório  
 **Público:** Desenvolvedores de cada aplicação
 
 ### 5. Tutorials 🎯
+
 **Objetivo:** Tutoriais práticos e passo a passo  
 **Conteúdo:** Exemplos práticos, casos de uso  
 **Público:** Todos os níveis (iniciante → avançado)
 
 ### 6. Business Rules 📋
+
 **Objetivo:** Documentar regras de negócio  
 **Conteúdo:** RNs por módulo do sistema  
 **Público:** Analistas, desenvolvedores, QA
 
 ### 7. Testing 🧪
+
 **Objetivo:** Estratégias e guias de testes  
 **Conteúdo:** Unitários, integração, E2E  
 **Público:** Desenvolvedores, QA
 
 ### 8. Deployment 🚀
+
 **Objetivo:** Guias de implantação  
 **Conteúdo:** Deploy local, staging, produção  
 **Público:** DevOps, desenvolvedores
 
 ### 9. Contributing 🤝
+
 **Objetivo:** Orientar contribuidores  
 **Conteúdo:** Como contribuir, padrões, workflow  
 **Público:** Contribuidores externos e internos
 
 ### 10. Changelog 📝
+
 **Objetivo:** Histórico de mudanças  
 **Conteúdo:** Releases, mudanças significativas  
 **Público:** Todos
@@ -184,14 +197,18 @@ vsmenu-docs/
 ## 🔗 Navegação
 
 ### Links Internos
+
 Use links relativos:
+
 ```markdown
 [Documentação da API](../api/index.md)
 [Getting Started](./getting-started/index.md)
 ```
 
 ### Links Externos
+
 Use links absolutos:
+
 ```markdown
 [VitePress](https://vitepress.dev)
 ```
@@ -227,4 +244,3 @@ Para adicionar novo conteúdo:
 ---
 
 **Dúvidas sobre a estrutura?** Abra uma [issue](https://github.com/vsmenu/vsmenu-docs/issues) ou veja o [Guia de Contribuição](./docs/contributing/index.md).
-

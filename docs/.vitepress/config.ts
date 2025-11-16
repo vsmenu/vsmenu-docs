@@ -7,7 +7,9 @@ export default defineConfig({
   lang: 'pt-BR',
   
   // Base URL para GitHub Pages
-  base: '/',
+  // Se estiver usando custom domain (docs.vsmenu.io), use '/'
+  // Se estiver usando GitHub Pages padrão, use '/vsmenu-docs/'
+  base: '/vsmenu-docs/',
   
   // Clean URLs
   cleanUrls: true,

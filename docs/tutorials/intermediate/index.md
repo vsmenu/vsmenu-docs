@@ -38,4 +38,3 @@ Após dominar estes tutoriais:
 ---
 
 **Anterior:** [Tutoriais Iniciantes](/tutorials/beginner/) | **Próximo:** [Tutoriais Avançados](/tutorials/advanced/)
-

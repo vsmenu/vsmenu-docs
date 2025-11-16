@@ -49,4 +49,3 @@ Quer documentar uma decisão arquitetural? Veja o [Guia de Contribuição](/cont
 ---
 
 **Voltar para:** [Arquitetura](/architecture/)
-

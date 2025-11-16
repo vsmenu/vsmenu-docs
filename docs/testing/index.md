@@ -14,9 +14,11 @@ O VSmenu segue uma estratégia de testes abrangente para garantir qualidade e co
 ## 🧪 Tipos de Testes
 
 ### Testes Unitários
+
 Testam unidades individuais de código em isolamento.
 
 **Ferramentas:**
+
 - Backend (Laravel): PHPUnit
 - Frontend (Vue): Vitest
 - Mobile (React Native): Jest
@@ -24,6 +26,7 @@ Testam unidades individuais de código em isolamento.
 **Cobertura Alvo:** 80%+
 
 ::: tip Boas Práticas
+
 - Teste apenas uma coisa por vez
 - Use mocks para dependências externas
 - Nomes descritivos e claros
@@ -31,9 +34,11 @@ Testam unidades individuais de código em isolamento.
 :::
 
 ### Testes de Integração
+
 Testam a integração entre componentes e serviços.
 
 **Escopo:**
+
 - APIs e banco de dados
 - Integração entre módulos
 - Serviços externos (mocks)
@@ -43,9 +48,11 @@ Documentação em construção.
 :::
 
 ### Testes E2E (End-to-End)
+
 Testam fluxos completos do ponto de vista do usuário.
 
 **Ferramentas:**
+
 - Web: Playwright ou Cypress
 - Mobile: Detox
 - Desktop: Spectron
@@ -55,9 +62,11 @@ Documentação em construção.
 :::
 
 ### Testes de Performance
+
 Garantem que o sistema atende aos requisitos de performance.
 
 **Ferramentas:**
+
 - k6 para testes de carga
 - Lighthouse para performance web
 
@@ -68,6 +77,7 @@ Documentação em construção.
 ## 🚀 Executando Testes
 
 ### Backend
+
 ```bash
 # Todos os testes
 php artisan test
@@ -80,6 +90,7 @@ php artisan test tests/Unit/ProductTest.php
 ```
 
 ### Frontend Web
+
 ```bash
 # Todos os testes
 npm test
@@ -92,6 +103,7 @@ npm test -- --coverage
 ```
 
 ### Mobile
+
 ```bash
 # Todos os testes
 npm test
@@ -129,4 +141,3 @@ Ao criar um PR, garanta que:
 ---
 
 Veja também: [Guias de Desenvolvimento](/guides/)
-

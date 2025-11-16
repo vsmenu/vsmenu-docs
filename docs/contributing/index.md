@@ -12,31 +12,39 @@ Obrigado por considerar contribuir com o VSmenu! Este guia irá ajudá-lo a faze
 Existem várias formas de contribuir com o projeto:
 
 ### 1. 🐛 Reportar Bugs
+
 Encontrou um bug? Abra uma [issue](https://github.com/vsmenu/vsmenu-docs/issues/new) descrevendo:
+
 - O que você esperava que acontecesse
 - O que realmente aconteceu
 - Passos para reproduzir
 - Ambiente (SO, versões, etc)
 
 ### 2. 💡 Sugerir Melhorias
+
 Tem uma ideia? Abra uma [issue](https://github.com/vsmenu/vsmenu-docs/issues/new) com:
+
 - Descrição da melhoria
 - Motivação e benefícios
 - Exemplos de uso
 
 ### 3. 📝 Melhorar Documentação
+
 A documentação sempre pode melhorar:
+
 - Corrigir erros de digitação
 - Adicionar exemplos
 - Melhorar explicações
 - Traduzir conteúdo
 
 ### 4. 💻 Contribuir com Código
+
 Desenvolva novas funcionalidades ou correções.
 
 ## 🔄 Processo de Contribuição
 
 ### 1. Fork e Clone
+
 ```bash
 # Fork o repositório no GitHub
 # Clone seu fork
@@ -48,6 +56,7 @@ git remote add upstream https://github.com/vsmenu/vsmenu-docs.git
 ```
 
 ### 2. Crie uma Branch
+
 ```bash
 # Atualize sua main
 git checkout main
@@ -60,11 +69,13 @@ git checkout -b fix/corrige-link-quebrado
 ```
 
 ### 3. Faça suas Alterações
+
 - Edite os arquivos necessários
 - Teste localmente: `npm run docs:dev`
 - Siga as convenções de código
 
 ### 4. Commit
+
 ```bash
 # Commit com mensagem descritiva
 git add .
@@ -72,6 +83,7 @@ git commit -m "docs: melhora documentação da API de produtos"
 ```
 
 **Convenção de Commits:**
+
 - `docs:` - Mudanças na documentação
 - `feat:` - Nova funcionalidade
 - `fix:` - Correção de bug
@@ -80,6 +92,7 @@ git commit -m "docs: melhora documentação da API de produtos"
 - `chore:` - Manutenção geral
 
 ### 5. Push e Pull Request
+
 ```bash
 # Push para seu fork
 git push origin docs/melhoria-secao-api
@@ -103,12 +116,14 @@ Antes de abrir um PR, verifique:
 ## ✍️ Convenções de Escrita
 
 ### Markdown
+
 - Use headers hierárquicos (H1, H2, H3...)
 - Adicione front matter YAML em cada arquivo
 - Use code blocks com linguagem especificada
 - Adicione links relativos entre docs
 
 ### Estilo
+
 - Seja claro e objetivo
 - Use exemplos práticos
 - Prefira listas para múltiplos itens
@@ -141,6 +156,7 @@ Todos os PRs passam por revisão:
 5. **Merge:** PR é integrado ao projeto
 
 **Timeline Esperado:**
+
 - PRs simples: 1-2 dias
 - PRs complexos: 3-5 dias
 
@@ -162,26 +178,31 @@ Entenda as labels usadas:
 ## 🎯 Desenvolvimento por Repositório
 
 ### vsmenu-docs (Documentação)
+
 - VitePress + Vue 3
 - Markdown para conteúdo
 - Nenhuma instalação backend necessária
 
 ### vsmenu-api (Backend)
+
 - Laravel 11 + PostgreSQL
 - Docker Compose para desenvolvimento
 - PHPUnit para testes
 
 ### vsmenu-delivery-web (Web)
+
 - Vue 3 + TypeScript
 - Vite para build
 - Vitest para testes
 
 ### vsmenu-desktop (Desktop)
+
 - Electron + Vue 3
 - SQLite para armazenamento local
 - Jest para testes
 
 ### vsmenu-mobile-* (Mobile)
+
 - React Native + TypeScript
 - Expo para desenvolvimento
 - Jest para testes
@@ -195,6 +216,7 @@ Entenda as labels usadas:
 ## 🙏 Reconhecimento
 
 Todos os contribuidores são reconhecidos:
+
 - README do projeto
 - Página de contribuidores
 - Release notes
@@ -204,6 +226,7 @@ Todos os contribuidores são reconhecidos:
 Ao contribuir, você concorda em seguir nosso [Código de Conduta](https://github.com/vsmenu/vsmenu-docs/blob/main/CODE_OF_CONDUCT.md).
 
 Esperamos:
+
 - ✅ Respeito e empatia
 - ✅ Comunicação clara e construtiva
 - ✅ Foco no melhor para a comunidade
@@ -214,4 +237,3 @@ Esperamos:
 Obrigado por ajudar a tornar o VSmenu melhor! 💙
 
 **Happy coding!** 🚀
-

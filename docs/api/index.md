@@ -12,6 +12,7 @@ Documentação completa da API REST do VSmenu 2.0.
 A API do VSmenu fornece acesso programático a todas as funcionalidades do sistema através de endpoints RESTful seguindo os padrões da indústria.
 
 ### Base URL
+
 ```
 Production: https://api.vsmenu.io/v1
 Staging: https://staging-api.vsmenu.io/v1
@@ -40,6 +41,7 @@ Todas as respostas seguem o formato JSON:
 ## 📚 Endpoints Principais
 
 ### Autenticação
+
 ```http
 POST /auth/login
 POST /auth/register
@@ -49,6 +51,7 @@ GET  /auth/me
 ```
 
 ### Produtos
+
 ```http
 GET    /products
 GET    /products/{id}
@@ -58,6 +61,7 @@ DELETE /products/{id}
 ```
 
 ### Pedidos
+
 ```http
 GET    /orders
 GET    /orders/{id}
@@ -67,6 +71,7 @@ PATCH  /orders/{id}/status
 ```
 
 ### Clientes
+
 ```http
 GET    /customers
 GET    /customers/{id}
@@ -121,4 +126,3 @@ console.log(data);
 ::: tip Em Desenvolvimento
 A documentação completa da API está sendo construída. Contribuições são bem-vindas!
 :::
-

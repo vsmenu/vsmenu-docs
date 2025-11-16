@@ -1,0 +1,15 @@
+{
+  "default": true,
+  "MD003": { "style": "atx" },
+  "MD007": { "indent": 2 },
+  "MD013": false,
+  "MD024": { "siblings_only": true },
+  "MD025": false,
+  "MD033": false,
+  "MD040": false,
+  "MD041": false,
+  "MD051": false,
+  "no-hard-tabs": true,
+  "whitespace": true
+}
+

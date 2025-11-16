@@ -5,6 +5,7 @@ Este documento define as convenções e padrões para criação e manutenção d
 ## 📁 Estrutura de Arquivos
 
 ### Nomenclatura de Arquivos
+
 - Use **kebab-case** para nomes de arquivos: `getting-started.md`, `api-endpoints.md`
 - Sempre inclua extensão `.md` para arquivos markdown
 - Nomes em **inglês** quando possível (termos técnicos)
@@ -12,6 +13,7 @@ Este documento define as convenções e padrões para criação e manutenção d
 - Arquivos devem ser descritivos e concisos
 
 **Exemplos:**
+
 ```
 ✅ getting-started.md
 ✅ api-authentication.md
@@ -23,6 +25,7 @@ Este documento define as convenções e padrões para criação e manutenção d
 ```
 
 ### Estrutura de Pastas
+
 ```
 docs/
 ├── index.md                    # Sempre tenha um index.md na raiz
@@ -39,6 +42,7 @@ docs/
 ```
 
 ### Assets (Imagens e Diagramas)
+
 - **Imagens:** `/public/images/` ou `/docs/images/`
 - **Diagramas:** `/public/diagrams/`
 - **Nomenclatura:** `nome-descritivo.extensao`
@@ -50,6 +54,7 @@ docs/
 ## ✍️ Convenções de Markdown
 
 ### Front Matter
+
 Cada arquivo deve começar com front matter YAML:
 
 ```yaml
@@ -60,6 +65,7 @@ description: Descrição curta (120-160 caracteres)
 ```
 
 **Campos opcionais:**
+
 ```yaml
 ---
 title: Título da Página
@@ -81,6 +87,7 @@ sidebar: auto
 ```
 
 **Regras:**
+
 - Apenas **um H1** por página (título principal)
 - Não pule níveis (H2 → H4 ❌)
 - Use ordem hierárquica (H1 → H2 → H3 → H4)
@@ -111,6 +118,7 @@ interface User {
 ````
 
 **Linguagens comuns:**
+
 - `javascript`, `typescript`
 - `bash`, `shell`
 - `php`, `python`, `java`
@@ -121,6 +129,7 @@ interface User {
 ### Links
 
 #### Links Internos (Relativos)
+
 ```markdown
 <!-- Mesmo diretório -->
 [Link](./outro-arquivo.md)
@@ -136,12 +145,14 @@ interface User {
 ```
 
 #### Links Externos (Absolutos)
+
 ```markdown
 [VitePress](https://vitepress.dev)
 [GitHub](https://github.com/vsmenu)
 ```
 
 **Boas práticas:**
+
 - Use links relativos para documentação interna
 - Links externos devem abrir em nova aba (configurado no VitePress)
 - Verifique links quebrados regularmente
@@ -149,6 +160,7 @@ interface User {
 ### Listas
 
 **Lista não ordenada:**
+
 ```markdown
 - Item 1
 - Item 2
@@ -158,6 +170,7 @@ interface User {
 ```
 
 **Lista ordenada:**
+
 ```markdown
 1. Primeiro passo
 2. Segundo passo
@@ -165,6 +178,7 @@ interface User {
 ```
 
 **Lista de tarefas:**
+
 ```markdown
 - [x] Tarefa concluída
 - [ ] Tarefa pendente
@@ -181,6 +195,7 @@ interface User {
 ```
 
 **Com alinhamento:**
+
 ```markdown
 | Esquerda | Centro | Direita |
 |:---------|:------:|--------:|
@@ -219,6 +234,7 @@ Alerta crítico
 ## 🎨 Guia de Estilo
 
 ### Tom e Voz
+
 - ✅ Use linguagem clara e objetiva
 - ✅ Prefira voz ativa: "Execute o comando" vs "O comando deve ser executado"
 - ✅ Seja direto ao ponto
@@ -227,11 +243,13 @@ Alerta crítico
 - ❌ Evite humor que pode não traduzir bem
 
 ### Linguagem
+
 - **Idioma:** Português brasileiro (documentação) e inglês (código)
 - **Termos técnicos:** Use inglês quando apropriado
 - **Consistência:** Use os mesmos termos ao longo da documentação
 
 ### Formatação
+
 - Espaço entre seções
 - Use listas para múltiplos itens
 - Quebre parágrafos longos (máx 3-4 linhas)
@@ -241,6 +259,7 @@ Alerta crítico
 ## 🔤 Convenções de Código
 
 ### Exemplos de Código
+
 - Sempre forneça **contexto**
 - Use **comentários** para explicar
 - Mostre **input e output** esperado
@@ -248,7 +267,9 @@ Alerta crítico
 - Código deve ser **executável** quando possível
 
 ### Variáveis de Exemplo
+
 Use valores realistas mas genéricos:
+
 - ❌ `senha123`, `email@email.com`
 - ✅ `seu-token-aqui`, `usuario@exemplo.com`
 
@@ -265,6 +286,7 @@ refactor: reorganiza estrutura de pastas
 ```
 
 **Tipos:**
+
 - `docs:` - Mudanças na documentação
 - `fix:` - Correção de erros
 - `feat:` - Nova documentação/feature
@@ -289,6 +311,7 @@ Antes de commitar documentação, verifique:
 ## 🔧 Ferramentas
 
 ### Linting
+
 ```bash
 # Markdown linting
 npm run lint:md
@@ -301,6 +324,7 @@ npm run spell-check
 ```
 
 ### Preview Local
+
 ```bash
 # Servidor de desenvolvimento
 npm run docs:dev
@@ -320,4 +344,3 @@ npm run docs:preview
 ---
 
 **Dúvidas?** Abra uma [issue](https://github.com/vsmenu/vsmenu-docs/issues) ou consulte o [Guia de Contribuição](/contributing/).
-

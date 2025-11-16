@@ -12,6 +12,7 @@ Guias práticos para trabalhar com cada aplicação do ecossistema VSmenu.
 ### Backend
 
 #### [vsmenu-api](https://github.com/vsmenu/vsmenu-api)
+
 Backend principal do sistema desenvolvido em Laravel 11.
 
 ::: info Em Desenvolvimento
@@ -23,6 +24,7 @@ Guia de desenvolvimento para a API em construção.
 ### Frontend
 
 #### [vsmenu-delivery-web](https://github.com/vsmenu/vsmenu-delivery-web)
+
 Aplicação web para pedidos delivery desenvolvida em Vue 3.
 
 ::: info Em Desenvolvimento
@@ -34,6 +36,7 @@ Guia de desenvolvimento para o Web App em construção.
 ### Desktop
 
 #### [vsmenu-desktop](https://github.com/vsmenu/vsmenu-desktop)
+
 Aplicação desktop offline-first desenvolvida em Electron + Vue 3.
 
 ::: info Em Desenvolvimento
@@ -45,6 +48,7 @@ Guia de desenvolvimento para o Desktop App em construção.
 ### Mobile
 
 #### [vsmenu-mobile-waiter](https://github.com/vsmenu/vsmenu-mobile-waiter)
+
 Aplicativo mobile para garçons desenvolvido em React Native.
 
 ::: info Em Desenvolvimento
@@ -52,6 +56,7 @@ Guia de desenvolvimento para o App do Garçom em construção.
 :::
 
 #### [vsmenu-mobile-deliverer](https://github.com/vsmenu/vsmenu-mobile-deliverer)
+
 Aplicativo mobile para entregadores desenvolvido em React Native.
 
 ::: info Em Desenvolvimento
@@ -63,6 +68,7 @@ Guia de desenvolvimento para o App do Entregador em construção.
 ### Design System
 
 #### [vsmenu-design-system](https://github.com/vsmenu/vsmenu-design-system)
+
 Biblioteca de componentes reutilizáveis e tokens de design.
 
 ::: info Em Desenvolvimento
@@ -74,6 +80,7 @@ Guia do Design System em construção.
 ### Infraestrutura
 
 #### [vsmenu-infrastructure](https://github.com/vsmenu/vsmenu-infrastructure)
+
 Infraestrutura como código (IaC) com Terraform.
 
 ::: info Em Desenvolvimento
@@ -97,4 +104,3 @@ Veja nosso [Guia de Contribuição](https://github.com/vsmenu/vsmenu-docs/blob/m
 ---
 
 Próximo: [Tutoriais](/tutorials/)
-

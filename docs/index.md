@@ -101,4 +101,3 @@ Ajude a melhorar esta documentação! Veja nosso [Guia de Contribuição](https:
 <div style="text-align: center; margin-top: 2rem;">
   <p>Feito com ❤️ pela equipe VSmenu</p>
 </div>
-

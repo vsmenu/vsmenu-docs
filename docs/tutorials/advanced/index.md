@@ -41,4 +41,3 @@ Explore também:
 ---
 
 **Anterior:** [Tutoriais Intermediários](/tutorials/intermediate/)
-
