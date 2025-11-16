@@ -44,4 +44,3 @@ Tem uma ideia para um tutorial? [Abra uma issue](https://github.com/vsmenu/vsmen
 ---
 
 Explore mais em [Guias de Desenvolvimento](/guides/)
-

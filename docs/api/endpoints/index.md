@@ -18,6 +18,7 @@ Documentação detalhada dos endpoints está sendo criada.
 :::
 
 ### Autenticação
+
 ```http
 POST   /auth/login
 POST   /auth/register
@@ -27,6 +28,7 @@ GET    /auth/me
 ```
 
 ### Produtos
+
 ```http
 GET    /products
 GET    /products/{id}
@@ -36,6 +38,7 @@ DELETE /products/{id}
 ```
 
 ### Categorias
+
 ```http
 GET    /categories
 GET    /categories/{id}
@@ -45,6 +48,7 @@ DELETE /categories/{id}
 ```
 
 ### Pedidos
+
 ```http
 GET    /orders
 GET    /orders/{id}
@@ -55,6 +59,7 @@ DELETE /orders/{id}
 ```
 
 ### Clientes
+
 ```http
 GET    /customers
 GET    /customers/{id}
@@ -64,6 +69,7 @@ DELETE /customers/{id}
 ```
 
 ### Mesas
+
 ```http
 GET    /tables
 GET    /tables/{id}
@@ -73,6 +79,7 @@ PATCH  /tables/{id}/status
 ```
 
 ### Usuários
+
 ```http
 GET    /users
 GET    /users/{id}
@@ -82,6 +89,7 @@ DELETE /users/{id}
 ```
 
 ### Relatórios
+
 ```http
 GET    /reports/sales
 GET    /reports/products
@@ -119,4 +127,3 @@ Quer documentar um endpoint? Veja o [Guia de Contribuição](/contributing/).
 ---
 
 **Voltar para:** [API](/api/)
-

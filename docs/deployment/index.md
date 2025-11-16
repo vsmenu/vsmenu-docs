@@ -14,15 +14,18 @@ O VSmenu utiliza estratégias modernas de deploy para garantir disponibilidade, 
 ## 🌍 Ambientes
 
 ### Desenvolvimento (Local)
+
 Ambiente para desenvolvimento local em sua máquina.
 
 **Requisitos:**
+
 - Docker & Docker Compose
 - Node.js 18+
 - PHP 8.2+
 - PostgreSQL 15+
 
 **Setup:**
+
 ```bash
 # Clone os repositórios
 git clone https://github.com/vsmenu/vsmenu-api.git
@@ -40,9 +43,11 @@ Use o Docker Compose para subir todos os serviços de uma vez!
 :::
 
 ### Staging
+
 Ambiente de homologação para testes antes da produção.
 
 **Características:**
+
 - Dados de teste
 - Integração com serviços sandbox
 - Acesso restrito
@@ -54,9 +59,11 @@ Documentação detalhada em construção.
 :::
 
 ### Produção
+
 Ambiente de produção com dados reais.
 
 **Características:**
+
 - Alta disponibilidade
 - Backup automático
 - Monitoramento 24/7
@@ -71,6 +78,7 @@ Deploy em produção requer aprovação e segue processo rigoroso.
 ## 🚀 Processo de Deploy
 
 ### 1. Desenvolvimento
+
 ```bash
 # Desenvolva em branch feature
 git checkout -b feature/nova-funcionalidade
@@ -81,11 +89,13 @@ git push origin feature/nova-funcionalidade
 ```
 
 ### 2. Pull Request
+
 - Abra PR para a branch `develop`
 - Aguarde revisão de código
 - CI/CD executa testes automaticamente
 
 ### 3. Staging
+
 ```bash
 # Merge para develop dispara deploy automático no staging
 git checkout develop
@@ -94,6 +104,7 @@ git push origin develop
 ```
 
 ### 4. Produção
+
 ```bash
 # Após validação no staging, merge para main
 git checkout main
@@ -105,15 +116,18 @@ git push origin main --tags
 ## 🔄 CI/CD Pipeline
 
 ### GitHub Actions
+
 Todos os repositórios utilizam GitHub Actions para automação:
 
 **Pipeline:**
+
 1. **Lint** - Verificação de código
 2. **Test** - Execução de testes
 3. **Build** - Build da aplicação
 4. **Deploy** - Deploy automático
 
 ### Infraestrutura
+
 - **Cloud Provider:** Google Cloud Platform (GCP)
 - **Orquestração:** Kubernetes (GKE)
 - **IaC:** Terraform
@@ -122,6 +136,7 @@ Todos os repositórios utilizam GitHub Actions para automação:
 ## 📦 Deploy por Aplicação
 
 ### Backend (API)
+
 ```bash
 # Build da imagem Docker
 docker build -t vsmenu-api:latest .
@@ -131,6 +146,7 @@ kubectl apply -f k8s/deployment.yaml
 ```
 
 ### Frontend Web
+
 ```bash
 # Build de produção
 npm run build
@@ -140,6 +156,7 @@ npm run build
 ```
 
 ### Mobile
+
 ```bash
 # Android
 npm run build:android:release
@@ -152,6 +169,7 @@ fastlane deploy
 ```
 
 ### Desktop
+
 ```bash
 # Build para todas as plataformas
 npm run build:all
@@ -170,6 +188,7 @@ npm run package
 ## 📊 Monitoramento
 
 Após o deploy, monitore:
+
 - Logs de aplicação
 - Métricas de performance
 - Alertas de erro
@@ -195,4 +214,3 @@ Melhorias no processo de deploy são bem-vindas! Veja o [Guia de Contribuição]
 ---
 
 Próximo: [Guias de Desenvolvimento](/guides/)
-

@@ -83,7 +83,7 @@ npm test
 
 ## 📁 Estrutura do Projeto
 
-```
+```text
 vsmenu-docs/
 ├── docs/                           # Conteúdo da documentação
 │   ├── .vitepress/                 # Configuração VitePress
@@ -200,21 +200,26 @@ Adoramos contribuições! Existem várias formas de contribuir com a documentaç
 O VSmenu 2.0 é composto por múltiplas aplicações:
 
 ### Backend
+
 - 🔧 [vsmenu-api](https://github.com/vsmenu/vsmenu-api) - API Backend (Laravel 11)
 - ☁️ [vsmenu-infrastructure](https://github.com/vsmenu/vsmenu-infrastructure) - Infraestrutura como Código (Terraform)
 
 ### Frontend
+
 - 🌐 [vsmenu-delivery-web](https://github.com/vsmenu/vsmenu-delivery-web) - App Web Delivery (Vue 3)
 - 💻 [vsmenu-desktop](https://github.com/vsmenu/vsmenu-desktop) - App Desktop Interno (Electron + Vue 3)
 
 ### Mobile
+
 - 📱 [vsmenu-mobile-waiter](https://github.com/vsmenu/vsmenu-mobile-waiter) - App Mobile Garçom (React Native)
 - 🚚 [vsmenu-mobile-deliverer](https://github.com/vsmenu/vsmenu-mobile-deliverer) - App Mobile Entregador (React Native)
 
 ### Design
+
 - 🎨 [vsmenu-design-system](https://github.com/vsmenu/vsmenu-design-system) - Design System e Componentes
 
 ### Documentação
+
 - 📚 [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) - Documentos de planejamento e arquitetura
 
 ## 📚 Documentação de Referência
@@ -272,6 +277,7 @@ O repositório [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) 
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 A licença MIT permite:
+
 - ✅ Uso comercial
 - ✅ Modificação
 - ✅ Distribuição
@@ -293,7 +299,7 @@ Obrigado a todos os [contribuidores](https://github.com/vsmenu/vsmenu-docs/graph
 
 - 🐛 **Reportar Bugs:** [GitHub Issues](https://github.com/vsmenu/vsmenu-docs/issues)
 - 💬 **Discussões:** [GitHub Discussions](https://github.com/vsmenu/vsmenu-docs/discussions)
-- 📧 **Email:** contato@vsmenu.io
+- 📧 **Email:** <contato@vsmenu.io>
 - 🌐 **Website:** [vsmenu.io](https://vsmenu.io) (em breve)
 
 ## 🔗 Links Úteis

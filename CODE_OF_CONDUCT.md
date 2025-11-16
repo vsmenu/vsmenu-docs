@@ -39,17 +39,17 @@ Os mantenedores do projeto têm o direito e a responsabilidade de remover, edita
 
 Este Código de Conduta se aplica tanto em espaços do projeto quanto em espaços públicos quando um indivíduo está representando o projeto ou sua comunidade. Exemplos de representação do projeto ou comunidade incluem:
 
-- Usar um endereço de e-mail oficial do projeto
-- Postar via conta oficial de mídia social
-- Atuar como representante nomeado em evento online ou offline
-- Contribuir com código, documentação ou issues
-- Participar de discussões no GitHub, Discord, ou outros canais oficiais
+* Usar um endereço de e-mail oficial do projeto
+* Postar via conta oficial de mídia social
+* Atuar como representante nomeado em evento online ou offline
+* Contribuir com código, documentação ou issues
+* Participar de discussões no GitHub, Discord, ou outros canais oficiais
 
 ## Aplicação
 
 Instâncias de comportamento abusivo, de assédio ou de outra forma inaceitável podem ser reportadas entrando em contato com a equipe do projeto em:
 
-📧 **valdir@vsmenu.io**
+📧 **<valdir@vsmenu.io>**
 
 Todas as reclamações serão analisadas e investigadas e resultarão em uma resposta considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente.
 
@@ -95,9 +95,8 @@ Para respostas a perguntas comuns sobre este código de conduta, veja o FAQ em [
 
 ## Perguntas?
 
-Se você tiver dúvidas sobre este Código de Conduta, abra uma issue ou entre em contato com os mantenedores em **valdir@vsmenu.io**.
+Se você tiver dúvidas sobre este Código de Conduta, abra uma issue ou entre em contato com os mantenedores em **<valdir@vsmenu.io>**.
 
 ---
 
 💙 Obrigado por ajudar a tornar o VSmenu uma comunidade acolhedora para todos!
-

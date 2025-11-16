@@ -48,28 +48,33 @@ O VSmenu é construído com uma arquitetura moderna e escalável:
 ## 🛠️ Tecnologias Principais
 
 ### Backend
+
 - **Laravel 11** - Framework PHP
 - **PostgreSQL** - Banco de dados relacional
 - **Redis** - Cache e WebSocket
 - **Sanctum** - Autenticação API
 
 ### Frontend Web
+
 - **Vue 3** - Framework JavaScript
 - **TypeScript** - Tipagem estática
 - **Pinia** - State management
 - **Tailwind CSS** - Estilização
 
 ### Mobile
+
 - **React Native** - Apps multiplataforma
 - **TypeScript** - Tipagem estática
 - **Redux** - State management
 
 ### Desktop
+
 - **Electron** - App desktop
 - **Vue 3** - Interface
 - **SQLite** - Banco local offline
 
 ### Infraestrutura
+
 - **Google Cloud Platform** - Cloud provider
 - **Kubernetes (GKE)** - Orquestração
 - **Terraform** - IaC
@@ -93,4 +98,3 @@ Explore a documentação:
 ---
 
 Pronto para começar? Continue explorando a documentação! 🚀
-

@@ -13,6 +13,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ## [Unreleased]
 
 ### Em Desenvolvimento
+
 - Estrutura inicial da documentação
 - Setup VitePress
 - Organização de conteúdo
@@ -20,6 +21,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ## [0.1.0] - 2024-11-15
 
 ### Adicionado
+
 - Estrutura inicial do projeto VSmenu Docs
 - Configuração VitePress
 - Páginas iniciais:
@@ -37,6 +39,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 - Assets (logo, favicon)
 
 ### Infraestrutura
+
 - Setup GitHub repository
 - Configuração de CI/CD
 - Deploy automático
@@ -53,6 +56,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ## Como Contribuir
 
 Ao fazer alterações significativas:
+
 1. Adicione uma entrada na seção `[Unreleased]`
 2. Use as categorias apropriadas
 3. Seja descritivo e objetivo
@@ -99,4 +103,3 @@ git push origin main --tags
 
 [Unreleased]: https://github.com/vsmenu/vsmenu-docs/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/vsmenu/vsmenu-docs/releases/tag/v0.1.0
-

@@ -18,6 +18,7 @@ Obrigado por considerar contribuir com a documentação do VSmenu! Este document
 Este projeto e todos os participantes estão sujeitos ao nosso [Código de Conduta](./CODE_OF_CONDUCT.md). Ao participar, você concorda em seguir estes padrões de comportamento.
 
 Esperamos que todos os colaboradores:
+
 - Sejam respeitosos e inclusivos
 - Aceitem feedback construtivo
 - Foquem no que é melhor para a comunidade
@@ -92,6 +93,7 @@ npm run docs:dev
 ### 1. Crie ou Encontre uma Issue
 
 Antes de começar, verifique se já existe uma issue relacionada. Se não existir, crie uma nova descrevendo:
+
 - O que você pretende fazer
 - Por que é necessário
 - Como planeja implementar
@@ -175,6 +177,7 @@ description: Descrição curta e clara (120-160 caracteres)
 ```
 
 **Importante:**
+
 - Apenas um H1 por página
 - Não pule níveis de hierarquia
 - Use ordem lógica e progressiva
@@ -231,6 +234,7 @@ interface User {
 ````
 
 **Linguagens comuns:**
+
 - `javascript`, `typescript`, `jsx`, `tsx`
 - `bash`, `shell`, `sh`
 - `php`, `python`, `java`, `go`
@@ -267,6 +271,7 @@ Informação complementar ou contexto adicional
 ```
 
 **Boas práticas:**
+
 - Use texto alternativo descritivo
 - Otimize imagens antes de commitar
 - Coloque imagens em `/docs/images/` ou `/docs/public/`
@@ -312,6 +317,7 @@ Informação complementar ou contexto adicional
 ### Exemplos de Código
 
 **Sempre forneça:**
+
 - Contexto do que o código faz
 - Comentários explicativos quando necessário
 - Input e output esperado
@@ -348,7 +354,7 @@ console.log(data);
 
 Seguimos [Conventional Commits](https://www.conventionalcommits.org/pt-br/):
 
-```
+```text
 tipo(escopo): descrição curta
 
 [corpo opcional]
@@ -380,6 +386,7 @@ chore: atualiza dependências do VitePress
 ### Mensagens de Commit
 
 **Boas práticas:**
+
 - Use modo imperativo: "adiciona" não "adicionado" ou "adicionando"
 - Primeira letra minúscula após o tipo
 - Sem ponto final
@@ -415,6 +422,7 @@ chore: atualiza dependências do VitePress
 ### Feedback Construtivo
 
 Ao revisar PRs de outros:
+
 - Seja respeitoso e construtivo
 - Explique o "porquê" das sugestões
 - Aprecie o esforço do contributor
@@ -442,6 +450,7 @@ Antes de abrir um Pull Request, verifique:
 Encontrou um erro na documentação? Ajude-nos a melhorar!
 
 **Use o template de issue e inclua:**
+
 - Descrição clara do problema
 - Link para a página com problema
 - Passos para reproduzir (se aplicável)
@@ -454,6 +463,7 @@ Encontrou um erro na documentação? Ajude-nos a melhorar!
 Tem uma ideia para melhorar a documentação?
 
 **Abra uma issue incluindo:**
+
 - Descrição da melhoria
 - Motivação (por que é importante?)
 - Contexto (onde se aplica?)
@@ -462,6 +472,7 @@ Tem uma ideia para melhorar a documentação?
 ## 🙏 Reconhecimento
 
 Todos os contribuidores são reconhecidos:
+
 - README do projeto
 - Página de contribuidores no GitHub
 - Release notes
@@ -474,7 +485,7 @@ Tem dúvidas sobre como contribuir?
 
 - 💬 **Discussões:** [GitHub Discussions](https://github.com/vsmenu/vsmenu-docs/discussions)
 - 🐛 **Issues:** [GitHub Issues](https://github.com/vsmenu/vsmenu-docs/issues)
-- 📧 **Email:** contato@vsmenu.io
+- 📧 **Email:** <contato@vsmenu.io>
 
 ## 📚 Recursos Úteis
 
@@ -491,9 +502,8 @@ Tem dúvidas sobre como contribuir?
 
 ---
 
-**Obrigado por contribuir com o VSmenu! 🎉**
+## Obrigado por contribuir com o VSmenu! 🎉
 
 Sua contribuição ajuda a tornar nossa documentação melhor para todos.
 
 Happy documenting! 📝✨
-

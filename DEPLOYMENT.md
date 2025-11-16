@@ -38,21 +38,24 @@ Se você configurar um custom domain, altere o base para `/`.
 Para usar um domínio customizado como `docs.vsmenu.io`:
 
 #### Passo 1: Configurar DNS
+
 Adicione os seguintes registros DNS:
 
-```
+```text
 Type: CNAME
 Name: docs
 Value: vsmenu.github.io
 ```
 
 #### Passo 2: Configurar no GitHub
+
 1. Acesse **Settings** → **Pages**
 2. Em **Custom domain**, adicione: `docs.vsmenu.io`
 3. Marque **Enforce HTTPS**
 4. Aguarde a verificação DNS (pode levar até 24h)
 
 #### Passo 3: Atualizar config.ts
+
 ```typescript
 base: '/',  // Alterar de '/vsmenu-docs/' para '/'
 ```
@@ -66,6 +69,7 @@ Temos 3 workflows configurados:
 **Trigger:** Push ou Pull Request em `main` ou `develop`
 
 **Ações:**
+
 - ✅ Build da documentação
 - ✅ Lint de arquivos Markdown
 - ✅ Verificação de links (apenas em PRs)
@@ -78,17 +82,19 @@ Temos 3 workflows configurados:
 **Trigger:** Push na branch `main`
 
 **Ações:**
+
 - ✅ Build da documentação
 - ✅ Deploy no GitHub Pages
 - ✅ Atualização automática do site
 
-**URL de Deploy:** https://vsmenu.github.io/vsmenu-docs/
+**URL de Deploy:** <https://vsmenu.github.io/vsmenu-docs/>
 
 ### 3. PR Comment (`pr-comment.yml`)
 
 **Trigger:** Abertura ou atualização de Pull Request
 
 **Ações:**
+
 - ✅ Adiciona comentário automático no PR
 - ✅ Checklist de revisão
 - ✅ Instruções de teste local
@@ -113,7 +119,7 @@ git push origin main
 
 ### Verificar Status do Deploy
 
-1. Acesse: https://github.com/vsmenu/vsmenu-docs/actions
+1. Acesse: <https://github.com/vsmenu/vsmenu-docs/actions>
 2. Veja o status do workflow "Deploy to GitHub Pages"
 3. Verde ✅ = Deploy bem-sucedido
 4. Vermelho ❌ = Erro no deploy (verifique os logs)
@@ -160,6 +166,7 @@ npm test
 **Causa:** Erro no build do VitePress
 
 **Solução:**
+
 1. Verifique os logs do workflow
 2. Teste localmente: `npm run docs:build`
 3. Corrija os erros e faça novo push
@@ -169,6 +176,7 @@ npm test
 **Causa:** Base URL incorreto
 
 **Solução:**
+
 1. Verifique o `base` em `config.ts`
 2. Deve ser `/vsmenu-docs/` para GitHub Pages padrão
 3. Ou `/` se estiver usando custom domain
@@ -178,6 +186,7 @@ npm test
 **Causa:** Cache do navegador
 
 **Solução:**
+
 1. Force refresh: `Ctrl + F5` (Windows) ou `Cmd + Shift + R` (Mac)
 2. Limpe o cache do navegador
 3. Teste em aba anônima
@@ -187,6 +196,7 @@ npm test
 **Causa:** Links relativos incorretos
 
 **Solução:**
+
 1. Use links com `/` no início: `/getting-started/`
 2. Ou use links relativos corretos: `../getting-started/`
 3. Execute `npm run check-links` antes do commit
@@ -205,11 +215,13 @@ O README.md contém badges que mostram o status:
 ### GitHub Actions
 
 Monitore os workflows em:
-- https://github.com/vsmenu/vsmenu-docs/actions
+
+- <https://github.com/vsmenu/vsmenu-docs/actions>
 
 ### Analytics (Futuro)
 
 Planejamos adicionar:
+
 - Google Analytics
 - Plausible Analytics
 - Vercel Analytics
@@ -219,6 +231,7 @@ Planejamos adicionar:
 ### Secrets
 
 Não são necessários secrets adicionais. O GitHub Actions usa automaticamente:
+
 - `GITHUB_TOKEN` - Gerado automaticamente pelo GitHub
 - `GITHUB_PAGES_TOKEN` - Permissões configuradas no workflow
 
@@ -236,17 +249,20 @@ permissions:
 ## 🎯 Ambientes
 
 ### Produção
-- **URL:** https://vsmenu.github.io/vsmenu-docs/
+
+- **URL:** <https://vsmenu.github.io/vsmenu-docs/>
 - **Branch:** `main`
 - **Deploy:** Automático
 
 ### Desenvolvimento
-- **URL:** http://localhost:5173
+
+- **URL:** <http://localhost:5173>
 - **Branch:** Qualquer
 - **Comando:** `npm run docs:dev`
 
 ### Preview (Staging)
-- **URL:** http://localhost:4173
+
+- **URL:** <http://localhost:4173>
 - **Branch:** Qualquer
 - **Comando:** `npm run docs:preview`
 
@@ -276,4 +292,3 @@ Se tiver problemas com o deploy:
 ---
 
 **✨ Deploy automatizado com sucesso!**
-

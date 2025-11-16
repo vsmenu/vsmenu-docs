@@ -20,7 +20,9 @@ Até o momento, **5 de 6 issues** do MVP da documentação foram completadas:
 ### O que Foi Implementado
 
 #### Issue #8 - GitHub Actions CI/CD ✅
+
 **Arquivos criados:**
+
 - `.github/workflows/ci.yml` - Workflow de CI (build, lint, check-links)
 - `.github/workflows/deploy.yml` - Workflow de deploy para GitHub Pages
 - `.github/workflows/pr-comment.yml` - Comentários automáticos em PRs
@@ -28,6 +30,7 @@ Até o momento, **5 de 6 issues** do MVP da documentação foram completadas:
 - `.markdown-link-check.json` - Configuração do verificador de links
 
 **Scripts adicionados ao package.json:**
+
 ```json
 {
   "lint:md": "markdownlint '**/*.md' --ignore node_modules --ignore docs/.vitepress",
@@ -38,35 +41,44 @@ Até o momento, **5 de 6 issues** do MVP da documentação foram completadas:
 ```
 
 **Dependências adicionadas:**
+
 - `markdown-link-check@^3.12.2`
 - `markdownlint-cli@^0.42.0`
 
 #### Issue #9 - Deploy Automático ✅
+
 **Configurações realizadas:**
+
 - Workflow de deploy configurado (`.github/workflows/deploy.yml`)
 - Base URL configurado no VitePress (`base: '/vsmenu-docs/'`)
 - Documentação de deployment criada (`DEPLOYMENT.md`)
 - Badges de status adicionados ao README
-- URL da documentação publicada: https://vsmenu.github.io/vsmenu-docs/
+- URL da documentação publicada: <https://vsmenu.github.io/vsmenu-docs/>
 
 **Recursos:**
+
 - Deploy automático ao fazer push na `main`
 - Permissões configuradas (contents:read, pages:write, id-token:write)
 - Build artifacts com retenção de 7 dias
 
 #### Issue #7 - Sistema de Busca ✅
+
 **Já estava implementado no config.ts:**
+
 - Busca local configurada
 - Traduções em português
 - Atalhos de teclado (Ctrl+K / Cmd+K)
 - Busca instantânea com preview de resultados
 
 #### Issue #5 - Tema e Branding ✅
+
 **Arquivos criados:**
+
 - `docs/.vitepress/theme/index.ts` - Tema customizado
 - `docs/.vitepress/theme/style.css` - Estilos com cores VSmenu
 
 **Cores do tema:**
+
 ```css
 --vp-c-brand-1: #FF6B35;  /* Orange principal */
 --vp-c-brand-2: #FF8C5F;  /* Orange light */
@@ -74,6 +86,7 @@ Até o momento, **5 de 6 issues** do MVP da documentação foram completadas:
 ```
 
 **Customizações:**
+
 - Cores da marca VSmenu aplicadas
 - Hero section com gradiente laranja
 - Botões e links estilizados
@@ -83,12 +96,15 @@ Até o momento, **5 de 6 issues** do MVP da documentação foram completadas:
 - Badges e admonitions estilizados
 
 #### Issue #12 - Code of Conduct ✅
+
 **Arquivos criados:**
+
 - `CODE_OF_CONDUCT.md` - Baseado no Contributor Covenant 2.1
 - Integração com CONTRIBUTING.md
 - Badge adicionado ao README
 
 **Conteúdo:**
+
 - Padrões de comportamento aceitáveis e inaceitáveis
 - Processo de aplicação (4 níveis)
 - Contato para reportar violações
@@ -144,6 +160,7 @@ Informações adicionais relevantes
 **Status:** 83% completo (5/6 issues)
 
 **Issues:**
+
 - [x] #8 - GitHub Actions CI/CD
 - [x] #9 - Deploy Automático
 - [x] #7 - Sistema de Busca
@@ -156,6 +173,7 @@ Informações adicionais relevantes
 **Objetivo:** Criar conteúdo inicial para todas as seções principais
 
 **Issues Sugeridas (~12 issues):**
+
 1. Documentar Getting Started completo
 2. Documentar Arquitetura - Overview
 3. Documentar Arquitetura - Componentes
@@ -174,6 +192,7 @@ Informações adicionais relevantes
 **Objetivo:** Expandir guias de desenvolvimento e tutoriais
 
 **Issues Sugeridas (~10 issues):**
+
 1. Guia Mobile Garçom
 2. Guia Mobile Entregador
 3. Guia Design System
@@ -190,6 +209,7 @@ Informações adicionais relevantes
 **Objetivo:** Documentar todos os endpoints da API
 
 **Issues Sugeridas (~15 issues):**
+
 1. Endpoints - Autenticação
 2. Endpoints - Usuários e Permissões
 3. Endpoints - Estabelecimentos
@@ -211,6 +231,7 @@ Informações adicionais relevantes
 **Objetivo:** Adicionar diagramas de arquitetura e fluxos
 
 **Issues Sugeridas (~8 issues):**
+
 1. Diagrama de arquitetura geral
 2. Diagrama de componentes
 3. Diagrama de fluxo de dados
@@ -225,6 +246,7 @@ Informações adicionais relevantes
 **Objetivo:** Documentação completa e pronta para produção
 
 **Issues Sugeridas (~5 issues):**
+
 1. Revisão completa de todo conteúdo
 2. Otimização de SEO
 3. Adicionar analytics
@@ -246,12 +268,14 @@ Informações adicionais relevantes
 ## 🏷️ Sistema de Labels
 
 ### Por Prioridade
+
 - `priority: critical` - Bloqueador, deve ser resolvido imediatamente
 - `priority: high` - Importante, resolver o mais breve possível
 - `priority: medium` - Normal, resolver quando possível
 - `priority: low` - Pode esperar, nice to have
 
 ### Por Tipo
+
 - `type: documentation` - Documentação nova ou atualização
 - `type: feature` - Nova funcionalidade
 - `type: bug` - Correção de erro
@@ -261,6 +285,7 @@ Informações adicionais relevantes
 - `type: design` - Design e UI/UX
 
 ### Por Categoria
+
 - `category: content` - Conteúdo textual
 - `category: structure` - Estrutura e organização
 - `category: navigation` - Navegação e links
@@ -270,6 +295,7 @@ Informações adicionais relevantes
 - `category: meta` - Meta-documentação
 
 ### Especiais
+
 - `good first issue` - Bom para iniciantes
 - `help wanted` - Precisa de ajuda da comunidade
 - `blocked` - Bloqueado por dependência
@@ -281,6 +307,7 @@ Informações adicionais relevantes
 ### 1. Identifique a Necessidade
 
 Antes de criar uma issue, verifique:
+
 - [ ] A issue já não existe?
 - [ ] É específica o suficiente?
 - [ ] Tem escopo bem definido?
@@ -305,6 +332,7 @@ Copie o [template de issue](#📝-template-de-issue) e preencha todas as seçõe
 
 **✅ Bom:**
 > "- [ ] Endpoint POST /login documentado com exemplo
+>
 > - [ ] Endpoint POST /register documentado com exemplo
 > - [ ] Endpoint POST /logout documentado
 > - [ ] Fluxo de refresh token explicado
@@ -320,6 +348,7 @@ Copie o [template de issue](#📝-template-de-issue) e preencha todas as seçõe
 ### 6. Estime o Esforço
 
 Seja realista:
+
 - 0.5 dia = Tarefa simples (2-4h)
 - 1 dia = Tarefa normal (4-8h)
 - 2-3 dias = Tarefa complexa
@@ -352,6 +381,7 @@ graph LR
 ## 📚 Referências
 
 ### Documentação do Projeto
+
 - [README.md](./README.md) - Visão geral do projeto
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Guia de contribuição
 - [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) - Código de conduta
@@ -360,12 +390,14 @@ graph LR
 - [DEPLOYMENT.md](./DEPLOYMENT.md) - Guia de deployment
 
 ### Repositórios Relacionados
+
 - [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) - Documentos técnicos
 - [vsmenu-api](https://github.com/vsmenu/vsmenu-api) - Backend API
 - [vsmenu-delivery-web](https://github.com/vsmenu/vsmenu-delivery-web) - Frontend Web
 - [vsmenu-desktop](https://github.com/vsmenu/vsmenu-desktop) - Desktop App
 
 ### Links Úteis
+
 - [VitePress Documentation](https://vitepress.dev)
 - [GitHub Issues Guide](https://docs.github.com/en/issues)
 - [Markdown Guide](https://www.markdownguide.org/)
@@ -373,6 +405,7 @@ graph LR
 ## 🎯 Próximos Passos
 
 ### Imediato (v0.1)
+
 1. ✅ Finalizar este documento (Issue #2)
 2. ✅ Verificar todos os workflows funcionando
 3. 🔄 Fazer commit e push das alterações
@@ -380,18 +413,21 @@ graph LR
 5. 🔄 Fechar issues completadas
 
 ### Curto Prazo (v0.2)
+
 1. Criar issues do milestone v0.2
 2. Começar documentação Getting Started completa
 3. Documentar arquitetura geral
 4. Criar primeiros ADRs
 
 ### Médio Prazo (v0.3-v0.4)
+
 1. Expandir guias de desenvolvimento
 2. Documentar API completa
 3. Criar tutoriais práticos
 4. Adicionar diagramas
 
 ### Longo Prazo (v0.5-v1.0)
+
 1. Completar toda documentação
 2. Adicionar recursos visuais
 3. Otimizar SEO
@@ -400,18 +436,21 @@ graph LR
 ## 💡 Dicas para Contribuidores
 
 ### Para Iniciantes (Good First Issues)
+
 - Corrigir typos
 - Melhorar exemplos existentes
 - Adicionar links internos
 - Melhorar formatação
 
 ### Para Intermediários
+
 - Criar novos tutoriais
 - Documentar endpoints
 - Adicionar diagramas simples
 - Melhorar navegação
 
 ### Para Avançados
+
 - Arquitetura e design decisions
 - Diagramas complexos
 - Integrações e automações
@@ -423,7 +462,7 @@ Dúvidas sobre issues ou como contribuir?
 
 - 💬 [GitHub Discussions](https://github.com/vsmenu/vsmenu-docs/discussions)
 - 🐛 [GitHub Issues](https://github.com/vsmenu/vsmenu-docs/issues)
-- 📧 Email: valdir@vsmenu.io
+- 📧 Email: <valdir@vsmenu.io>
 
 ---
 
@@ -431,4 +470,3 @@ Dúvidas sobre issues ou como contribuir?
 **Status do Projeto:** v0.1 - Setup e Estrutura (83% completo)
 
 **✨ Obrigado por contribuir com a documentação do VSmenu!**
-

@@ -37,4 +37,3 @@ Antes de começar, recomendamos:
 ---
 
 **Próximo:** [Tutoriais Intermediários](/tutorials/intermediate/)
-
