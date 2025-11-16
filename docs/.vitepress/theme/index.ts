@@ -1,8 +1,8 @@
-// .vitepress/theme/index.ts
+// https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './custom.css'
+import './style.css'
 
 export default {
   extends: DefaultTheme,
@@ -12,7 +12,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // Customizações do app podem ser adicionadas aqui
+    // ...
   }
 } satisfies Theme
-

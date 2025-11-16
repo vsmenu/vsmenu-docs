@@ -1,0 +1,58 @@
+name: PR Comment
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  comment:
+    name: Add PR Comment
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Comment PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const comment = `## 📚 Documentação Preview
+            
+            Obrigado por contribuir com a documentação do VSmenu! 🎉
+            
+            ### ✅ Checklist de Revisão
+            - [ ] O conteúdo está claro e objetivo
+            - [ ] Os exemplos de código estão corretos
+            - [ ] Os links estão funcionando
+            - [ ] A formatação Markdown está correta
+            - [ ] As imagens/diagramas estão otimizados
+            
+            ### 🔍 Como Testar Localmente
+            \`\`\`bash
+            # Clone o branch
+            git checkout ${context.payload.pull_request.head.ref}
+            
+            # Instale as dependências
+            npm install
+            
+            # Execute localmente
+            npm run docs:dev
+            \`\`\`
+            
+            ### 📝 Deploy
+            Após o merge, a documentação será automaticamente publicada em:
+            🔗 https://vsmenu.github.io/vsmenu-docs/
+            
+            ---
+            _Este comentário é gerado automaticamente pelo GitHub Actions_`;
+            
+            github.rest.issues.createComment({
+              issue_number: prNumber,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+

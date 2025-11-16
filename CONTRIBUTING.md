@@ -4,13 +4,26 @@ Obrigado por considerar contribuir com a documentação do VSmenu! Este document
 
 ## 📋 Índice
 
-1. [Como Começar](#como-começar)
-2. [Tipos de Contribuição](#tipos-de-contribuição)
-3. [Fluxo de Trabalho](#fluxo-de-trabalho)
-4. [Padrões de Documentação](#padrões-de-documentação)
-5. [Convenções de Commit](#convenções-de-commit)
-6. [Revisão de Pull Requests](#revisão-de-pull-requests)
-7. [Guia de Estilo](#guia-de-estilo)
+1. [Código de Conduta](#código-de-conduta)
+2. [Como Começar](#como-começar)
+3. [Tipos de Contribuição](#tipos-de-contribuição)
+4. [Fluxo de Trabalho](#fluxo-de-trabalho)
+5. [Padrões de Documentação](#padrões-de-documentação)
+6. [Convenções de Commit](#convenções-de-commit)
+7. [Revisão de Pull Requests](#revisão-de-pull-requests)
+8. [Guia de Estilo](#guia-de-estilo)
+
+## 💙 Código de Conduta
+
+Este projeto e todos os participantes estão sujeitos ao nosso [Código de Conduta](./CODE_OF_CONDUCT.md). Ao participar, você concorda em seguir estes padrões de comportamento.
+
+Esperamos que todos os colaboradores:
+- Sejam respeitosos e inclusivos
+- Aceitem feedback construtivo
+- Foquem no que é melhor para a comunidade
+- Mostrem empatia com outros membros
+
+Para mais detalhes, leia o [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) completo.
 
 ## 🚀 Como Começar
 
