@@ -121,8 +121,10 @@ vsmenu-docs/
 │   │   └── index.md
 │   ├── changelog/                  # 📝 Changelog
 │   │   └── index.md
-│   ├── images/                     # Imagens
-│   │   └── vsmenu-logo.png
+│   ├── public/                     # Assets públicos (imagens, etc)
+│   │   └── images/
+│   │       ├── logo.svg
+│   │       └── vsmenu-logo.png
 │   └── index.md                    # Home page
 ├── .github/
 │   └── workflows/                  # GitHub Actions (futuro)
