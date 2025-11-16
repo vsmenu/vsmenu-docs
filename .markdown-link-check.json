@@ -8,6 +8,21 @@
     },
     {
       "pattern": "^#"
+    },
+    {
+      "pattern": "^/"
+    },
+    {
+      "pattern": "^\\.\\./"
+    },
+    {
+      "pattern": "^\\.\/"
+    },
+    {
+      "pattern": "https://github.com/vsmenu/vsmenu-(api|delivery-web|desktop|mobile-waiter|mobile-deliverer|design-system|infrastructure)"
+    },
+    {
+      "pattern": "https://github.com/vsmenu/vsmenu-docs/(discussions|compare|releases)"
     }
   ],
   "replacementPatterns": [],
