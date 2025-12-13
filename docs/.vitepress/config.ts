@@ -1,30 +1,37 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "VSmenu Docs",
-  description: "Documentação completa do sistema VSmenu 2.0",
-  lang: 'pt-BR',
-  
-  // Base URL para GitHub Pages
-  // Se estiver usando custom domain (docs.vsmenu.io), use '/'
-  // Se estiver usando GitHub Pages padrão, use '/vsmenu-docs/'
-  base: '/vsmenu-docs/',
-  
-  // Clean URLs
-  cleanUrls: true,
-  
-  // Last updated
-  lastUpdated: true,
-  
-  // Markdown config
-  markdown: {
-    lineNumbers: true,
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark'
-    }
-  },
+export default withMermaid(
+  defineConfig({
+    title: "VSmenu Docs",
+    description: "Documentação completa do sistema VSmenu 2.0",
+    lang: 'pt-BR',
+    
+    // Base URL para GitHub Pages
+    // Se estiver usando custom domain (docs.vsmenu.io), use '/'
+    // Se estiver usando GitHub Pages padrão, use '/vsmenu-docs/'
+    base: '/vsmenu-docs/',
+    
+    // Clean URLs
+    cleanUrls: true,
+    
+    // Last updated
+    lastUpdated: true,
+    
+    // Markdown config
+    markdown: {
+      lineNumbers: true,
+      theme: {
+        light: 'github-light',
+        dark: 'github-dark'
+      }
+    },
+    
+    // Configuração do Mermaid
+    mermaid: {
+      theme: 'default'
+    },
 
   themeConfig: {
     // Logo
@@ -337,3 +344,4 @@ export default defineConfig({
     darkModeSwitchTitle: 'Trocar para modo escuro'
   }
 })
+)
