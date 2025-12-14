@@ -11,13 +11,19 @@ Guias práticos para trabalhar com cada aplicação do ecossistema VSmenu.
 
 ### Backend
 
-#### [vsmenu-api](https://github.com/vsmenu/vsmenu-api)
+#### [vsmenu-api](./api/)
 
 Backend principal do sistema desenvolvido em Laravel 11.
 
-::: info Em Desenvolvimento
-Guia de desenvolvimento para a API em construção.
-:::
+📖 **[Ver Guia Completo de Desenvolvimento →](./api/)**
+
+**O que você vai aprender:**
+- Setup do ambiente local
+- Estrutura do projeto (Clean Architecture)
+- Como criar endpoints e features
+- Testes unitários e de integração
+- Deploy em produção (GKE)
+- Troubleshooting comum
 
 ---
 
