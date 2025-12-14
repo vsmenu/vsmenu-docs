@@ -20,10 +20,13 @@ vsmenu-docs/
 │   │   └── prerequisites.md             # Pré-requisitos
 │   │
 │   ├── architecture/                    # 🏗️ Arquitetura do sistema
-│   │   ├── index.md                     # Overview da arquitetura
-│   │   ├── overview.md                  # Visão geral detalhada
-│   │   ├── components.md                # Componentes do sistema
-│   │   ├── data-flow.md                 # Fluxo de dados
+│   │   ├── index.md                     # Overview completo da arquitetura ✅
+│   │   ├── scalability.md               # Estratégias de escalabilidade ✅
+│   │   ├── performance.md               # Otimizações e métricas ✅
+│   │   ├── testing.md                   # Estratégias de teste por camada ✅
+│   │   ├── overview.md                  # Visão geral detalhada (planejado)
+│   │   ├── components.md                # Componentes do sistema (planejado)
+│   │   ├── data-flow.md                 # Fluxo de dados (planejado)
 │   │   ├── decisions/                   # 📋 ADRs (Architecture Decision Records)
 │   │   │   └── .gitkeep
 │   │   └── diagrams/                    # 📊 Diagramas de arquitetura

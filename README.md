@@ -17,7 +17,11 @@
 
 Este repositório contém toda a documentação técnica e arquitetural do ecossistema VSmenu 2.0, incluindo:
 
-- 🏗️ **Arquitetura** - Visão geral da arquitetura do sistema, componentes e decisões arquiteturais (ADRs)
+- 🏗️ **[Arquitetura](https://vsmenu.github.io/vsmenu-docs/architecture/)** - Visão geral da arquitetura do sistema, componentes e decisões arquiteturais
+  - [Overview da Arquitetura](https://vsmenu.github.io/vsmenu-docs/architecture/) - Visão completa do sistema
+  - [Escalabilidade](https://vsmenu.github.io/vsmenu-docs/architecture/scalability.html) - Estratégias de escala
+  - [Performance](https://vsmenu.github.io/vsmenu-docs/architecture/performance.html) - Otimizações e métricas
+  - [Testes](https://vsmenu.github.io/vsmenu-docs/architecture/testing.html) - Estratégias de teste por camada
 - 🔌 **API** - Documentação completa das APIs REST e WebSocket, endpoints e exemplos de uso
 - 📱 **Guias** - Guias de desenvolvimento específicos para cada aplicação do ecossistema
 - 📚 **Tutoriais** - Tutoriais passo a passo para iniciantes, intermediários e avançados
@@ -264,15 +268,40 @@ O repositório [vsmenu-documentos](https://github.com/vsmenu/vsmenu-documentos) 
 - [x] Tema e branding customizado
 - [x] README e Contributing guidelines
 - [x] Code of Conduct
+- [x] Documentação completa de Arquitetura (v0.2)
+  - [x] Overview da Arquitetura
+  - [x] Diagramas de Componentes
+  - [x] ADRs (Decisões Arquiteturais)
+  - [x] Stack Tecnológica
+  - [x] Padrões de Código
+  - [x] Estrutura de Projetos
+  - [x] Fluxo de Dados
+  - [x] Comunicação entre Serviços
+  - [x] Segurança
+  - [x] Escalabilidade
+  - [x] Performance
+  - [x] Estratégia de Testes
+- [ ] Guias de Desenvolvimento por repositório (v0.3)
+
+### 📅 Em Andamento
+
+- [ ] Guias específicos por aplicação (v0.3) - 9 guias planejados
+  - [ ] vsmenu-api
+  - [ ] vsmenu-delivery-web
+  - [ ] vsmenu-desktop
+  - [ ] vsmenu-mobile-waiter
+  - [ ] vsmenu-mobile-deliverer
+  - [ ] vsmenu-sales-panel
+  - [ ] vsmenu-landing
+  - [ ] vsmenu-design-system
+  - [ ] vsmenu-infrastructure
 
 ### 📅 Planejado
 
-- [ ] Conteúdo completo de todas as seções
-- [ ] Guias específicos por aplicação
 - [ ] Tutoriais práticos
 - [ ] Documentação completa da API
-- [ ] Diagramas de arquitetura
-- [ ] Vídeos tutoriais
+- [ ] Diagramas detalhados
+- [ ] Vídeos tutoriais (opcional)
 
 ## 📄 Licença
 
