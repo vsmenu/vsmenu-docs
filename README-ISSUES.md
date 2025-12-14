@@ -155,54 +155,75 @@ Informações adicionais relevantes
 
 ## 🏗️ Estrutura de Milestones
 
-### v0.1 - Setup e Estrutura (Atual) ✅
+### v0.1 - Setup e Estrutura ✅
 
-**Status:** 83% completo (5/6 issues)
+**Status:** 100% completo (6/6 issues)
 
-**Issues:**
+**Objetivo:** Configurar infraestrutura base da documentação
 
-- [x] #8 - GitHub Actions CI/CD
-- [x] #9 - Deploy Automático
-- [x] #7 - Sistema de Busca
-- [x] #5 - Tema e Branding
-- [x] #12 - Code of Conduct
-- [ ] #2 - Documentar Issues (este documento)
+**Issues Completadas:**
 
-### v0.2 - Conteúdo Base (Futuro)
+- [x] #3 - Setup de Site de Documentação (VitePress)
+- [x] #5 - Configurar Tema e Branding VSmenu
+- [x] #7 - Implementar Sistema de Busca
+- [x] #8 - Setup GitHub Actions CI/CD para Documentação
+- [x] #9 - Configurar Deploy Automático (GitHub Pages)
+- [x] #12 - Criar Code of Conduct
 
-**Objetivo:** Criar conteúdo inicial para todas as seções principais
+### v0.2 - Documentação de Arquitetura ✅
 
-**Issues Sugeridas (~12 issues):**
+**Status:** 100% completo (12/12 issues)
 
-1. Documentar Getting Started completo
-2. Documentar Arquitetura - Overview
-3. Documentar Arquitetura - Componentes
-4. Documentar Arquitetura - Fluxo de Dados
-5. Criar ADRs iniciais
-6. Documentar API - Autenticação
-7. Documentar API - Endpoints principais
-8. Criar guia vsmenu-api
-9. Criar guia vsmenu-delivery-web
-10. Criar guia vsmenu-desktop
-11. Documentar Regras de Negócio principais
-12. Criar tutorial básico
+**Objetivo:** Documentar completamente a arquitetura do VSmenu 2.0
 
-### v0.3 - Guias Avançados (Futuro)
+**Issues Completadas:**
 
-**Objetivo:** Expandir guias de desenvolvimento e tutoriais
+1. ✅ #21 - Documentar Overview da Arquitetura do Sistema
+2. ✅ #22 - Criar Diagrama de Componentes Arquiteturais
+3. ✅ #23 - Documentar Decisões Arquiteturais (ADRs)
+4. ✅ #24 - Documentar Stack Tecnológica Completa
+5. ✅ #25 - Documentar Padrões de Código e Convenções
+6. ✅ #26 - Documentar Estrutura de Projetos e Organização
+7. ✅ #27 - Documentar Fluxo de Dados no Sistema
+8. ✅ #28 - Documentar Comunicação entre Serviços
+9. ✅ #29 - Documentar Arquitetura de Segurança
+10. ✅ #30 - Documentar Estratégia de Escalabilidade
+11. ✅ #31 - Documentar Estratégia de Performance
+12. ✅ #32 - Documentar Estratégia de Testes na Arquitetura
 
-**Issues Sugeridas (~10 issues):**
+**Arquivos Criados:**
+- `docs/architecture/index.md` - Overview completo da arquitetura
+- `docs/architecture/scalability.md` - Estratégias de escalabilidade
+- `docs/architecture/performance.md` - Otimizações e métricas de performance
+- `docs/architecture/testing.md` - Estratégias de teste por camada
 
-1. Guia Mobile Garçom
-2. Guia Mobile Entregador
-3. Guia Design System
-4. Tutorial intermediário - WebSockets
-5. Tutorial intermediário - Multi-tenancy
-6. Tutorial avançado - Sincronização Offline
-7. Tutorial avançado - Performance
-8. Documentar testes unitários
-9. Documentar testes de integração
-10. Documentar testes E2E
+### v0.3 - Guias de Desenvolvimento (Em Andamento)
+
+**Status:** 0% completo (0/9 issues)
+
+**Objetivo:** Criar guias completos de desenvolvimento para cada repositório
+
+**Issues Criadas:**
+
+1. ⏳ #33 - Criar Guia de Desenvolvimento - vsmenu-api
+2. ⏳ #34 - Criar Guia de Desenvolvimento - vsmenu-delivery-web
+3. ⏳ #35 - Criar Guia de Desenvolvimento - vsmenu-desktop
+4. ⏳ #36 - Criar Guia de Desenvolvimento - vsmenu-mobile-waiter
+5. ⏳ #37 - Criar Guia de Desenvolvimento - vsmenu-mobile-deliverer
+6. ⏳ #38 - Criar Guia de Desenvolvimento - vsmenu-sales-panel
+7. ⏳ #39 - Criar Guia de Desenvolvimento - vsmenu-landing
+8. ⏳ #40 - Criar Guia de Desenvolvimento - vsmenu-design-system
+9. ⏳ #41 - Criar Guia de Desenvolvimento - vsmenu-infrastructure
+
+**Conteúdo de Cada Guia:**
+- Visão geral e pré-requisitos
+- Setup local completo
+- Estrutura do projeto
+- Como criar features/componentes
+- Como rodar testes
+- Como fazer deploy
+- Como contribuir
+- Troubleshooting comum
 
 ### v0.4 - Documentação API Completa (Futuro)
 
@@ -255,15 +276,15 @@ Informações adicionais relevantes
 
 ## 📊 Estimativas Totais
 
-| Milestone | Issues Estimadas | Dias Estimados | Status |
-|-----------|------------------|----------------|--------|
-| v0.1 - Setup | 6 | 5 dias | 83% ✅ |
-| v0.2 - Conteúdo Base | ~12 | 15 dias | 0% ⏳ |
-| v0.3 - Guias Avançados | ~10 | 12 dias | 0% ⏳ |
-| v0.4 - API Completa | ~15 | 20 dias | 0% ⏳ |
-| v0.5 - Diagramas | ~8 | 10 dias | 0% ⏳ |
-| v1.0 - Launch | ~5 | 5 dias | 0% ⏳ |
-| **TOTAL** | **~56** | **~67 dias** | **9%** |
+| Milestone | Issues | Dias Estimados | Status |
+|-----------|--------|----------------|--------|
+| v0.1 - Setup e Estrutura | 6/6 | 5 dias | ✅ 100% |
+| v0.2 - Arquitetura | 12/12 | 30 dias | ✅ 100% |
+| v0.3 - Guias de Desenvolvimento | 0/9 | 20 dias | ⏳ 0% |
+| v0.4 - API Completa | ~15 | 20 dias | ⏳ 0% |
+| v0.5 - Diagramas | ~8 | 10 dias | ⏳ 0% |
+| v1.0 - Launch | ~5 | 5 dias | ⏳ 0% |
+| **TOTAL** | **18/56+** | **~90 dias** | **~67%** |
 
 ## 🏷️ Sistema de Labels
 
