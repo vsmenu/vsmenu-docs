@@ -22,8 +22,8 @@ Cada repositório do VSmenu 2.0 segue padrões específicos de organização bas
 | **vsmenu-api** | Clean Architecture + DDD | Domain, Application, Infrastructure, Presentation |
 | **vsmenu-delivery-web** | Feature-based | components, views, stores, services |
 | **vsmenu-desktop** | Main/Renderer | main/, renderer/, shared/ |
-| **vsmenu-mobile-waiter** | Clean Architecture + Feature | features/[feature]/{data,domain,presentation} |
-| **vsmenu-mobile-deliverer** | Clean Architecture + Feature | features/[feature]/{data,domain,presentation} |
+| **vsmenu-mobile-waiter** | Clean Architecture + Feature | features/[feature]/data-domain-presentation |
+| **vsmenu-mobile-deliverer** | Clean Architecture + Feature | features/[feature]/data-domain-presentation |
 | **vsmenu-sales-panel** | Feature-based | components, views, stores, services |
 | **vsmenu-landing** | Pages-based (Nuxt) | pages/, components/, composables/ |
 | **vsmenu-digital-menu** | Feature-based | components, views, stores, services |
