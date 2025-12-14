@@ -2118,7 +2118,7 @@ export let options = {
 - [📋 Overview da Arquitetura](./index.md)
 - [🔐 Arquitetura de Segurança](./security.md)
 - [⚡ Estratégia de Performance](./performance.md)
-- [🚀 Estratégia de Implantação](../../DEPLOYMENT.md)
+- [🚀 Estratégia de Implantação](../deployment/index.md)
 - [📊 Fluxo de Dados](./data-flow.md)
 
 ---
