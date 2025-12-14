@@ -83,9 +83,28 @@ export default withMermaid(
           text: '🏗️ Arquitetura',
           items: [
             { text: 'Overview', link: '/architecture/' },
-            { text: 'Visão Geral', link: '/architecture/overview' },
             { text: 'Componentes', link: '/architecture/components' },
-            { text: 'Fluxo de Dados', link: '/architecture/data-flow' }
+            { text: 'Stack Tecnológica', link: '/architecture/tech-stack' },
+            { text: 'Padrões de Código', link: '/architecture/code-standards' },
+            { text: 'Estrutura de Projetos', link: '/architecture/project-structure' }
+          ]
+        },
+        {
+          text: '🔄 Comunicação e Fluxo',
+          collapsed: false,
+          items: [
+            { text: 'Fluxo de Dados', link: '/architecture/data-flow' },
+            { text: 'Comunicação entre Serviços', link: '/architecture/service-communication' }
+          ]
+        },
+        {
+          text: '🔐 Segurança e Performance',
+          collapsed: false,
+          items: [
+            { text: 'Arquitetura de Segurança', link: '/architecture/security' },
+            { text: 'Escalabilidade', link: '/architecture/scalability' },
+            { text: 'Performance', link: '/architecture/performance' },
+            { text: 'Testes', link: '/architecture/testing' }
           ]
         },
         {
